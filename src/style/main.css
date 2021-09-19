@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merienda&family=Source+Serif+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap');
+
+
+
+
+
+
+
+@media screen and (max-width : 760px) {
+
+    .nav-container {
+        height: 300px;
+        width: 100%;
+        border: 1px black solid
+    }
+
+    .c-upper {
+        height: 100%;
+    }
+
+
+    .c-inner {
+        height: 100%;
+    }
+
+    .c-pic {
+        width: 100%;
+        height: 300px;
+    }
+
+    #c-capt{
+        font-family: 'Lobster', cursive;
+        margin: auto;
+        font-family: 'Source Serif Pro', serif;
+        z-index: 100;
+        font-size: 4vw;
+        width: auto;
+        font-weight: 400;
+    }
+
+    /* 
+    .partial-border {
+
+        flex: 0 0;
+        width: 80%;
+        background: lightgray;
+        padding: 25px;
+
+        background:
+            linear-gradient(#ED1C16, #ED1C16) bottom left / 100px 1px,
+            linear-gradient(#ED1C16, #ED1C16) bottom left / 1px 70px,
+            linear-gradient(#ED1C16, #ED1C16) top right / 100px 1px,
+            linear-gradient(#ED1C16, #ED1C16) top right / 1px 70px;
+        background-repeat: no-repeat;
+    } */
+
+    #b-b-1 {
+        border: 3px solid white;
+        border-radius: 2%;
+        margin: 3% 5%;
+        padding: 3% 0%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #b-1-head{
+        font-size: 100%;
+    }
+    #b-3-head{
+        font-size: 90%;
+    }
+    #c-title{
+        font-size: 100%;
+    }
+    #b-b-2{
+       
+        width: 100%;
+        height: 250px;
+        margin: 10% 0%;
+    }
+    #b-2-btn{
+        height: auto;
+        margin-left: 9%;
+        width: 80%;
+        font-size: 2vh;
+        
+    }
+    #b-2-pic{
+        height: 200px;
+    }
+
+}
+
+
+
+
+
+body {
+    background: rgb(252, 244, 244);
+    background: radial-gradient(circle, rgba(242, 243, 252, 0.969625350140056) 0%, rgba(242, 243, 252, 1) 50%);
+
+}
+
+
+
+
+/* NAV CODE */
+
+
+.navigation {
+    border-bottom: rgba(255, 255, 255, 0.548) solid 0.1rem;
+    background: rgb(126, 139, 250);
+    background: linear-gradient(90deg, rgba(126, 138, 250, 0.952) 0%, rgba(9, 31, 231, 0.685) 53%, rgba(92, 110, 245, 0.897) 100%);
+
+    height: min-content;
+}
+
+
+
+.brand-name {
+    font-size: 4.5vh;
+    font-weight: bold;
+    border: 3px solid rgba(0, 0, 0, 0.849);
+    padding: 0vw 1vw;
+}
+
+.item-nav {
+    /* margin-left:auto; */
+    font-size: 3.4vh;
+
+}
+
+.nav-link {
+    padding-bottom: 0%;
+    margin-right: 0.5vw;
+    border-bottom: 3px rgba(0, 0, 0, 0) solid;
+}
+
+.nav-link:hover {
+    border-bottom: black 3px solid;
+}
+
+.nav {
+    width: 100%;
+    background: none;
+}
+
+.c-pic {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.c-inner {
+    text-align: center;
+
+}
+
+.c-caption {
+    border: 1px solid white;
+    margin: auto;
+    font-family: 'Source Serif Pro', serif;
+    color: #ffffff;
+    z-index: 100;
+    font-size: 2.2vw;
+    background: rgb(126, 139, 250);
+    background: linear-gradient(90deg, rgba(126, 139, 250, 0.9192051820728291) 0%, rgba(9, 33, 231, 0.6110819327731092) 53%, rgba(92, 111, 245, 0.8239670868347339) 100%);
+    width: max-content;
+    font-weight: 400;
+    padding: 1vw 1vw;
+}
+
+
+.centering {
+
+    background: #f5f5f500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+/* .partial-border {
+	
+	flex: 0 0;
+	width: 80%;
+	background: lightgray;
+	padding: 25px;
+	
+	background:
+		linear-gradient(#ED1C16, #ED1C16) bottom left / 150px 3px,
+		linear-gradient(#ED1C16, #ED1C16) bottom left / 3px 100px,
+		linear-gradient(#ED1C16, #ED1C16) top right / 150px 3px,
+		linear-gradient(#ED1C16, #ED1C16) top right / 3px 100px;
+	background-repeat: no-repeat;
+} */
+
+
+
+
+/* BODY CODE  */
+
+.body-box-1 {
+    border: 3px solid white;
+    border-radius: 2%;
+    margin: 3% 10%;
+    padding: 3% 8%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-1-head {
+    /* border-bottom: 0.25vw solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: rgba(9, 31, 231, 0.685);
+    border-radius: 5%;
+    font-family: 'Kaisei HarunoUmi', serif;
+    margin-bottom: 5vh;
+    font-size: 2.7vw;
+
+}
+
+.b-b-1-line {
+    justify-content: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.card-title {
+    font-size: 1.5vw;
+}
+
+.card-body{
+    background:rgba(126, 138, 250, 0.342);
+}
+
+.body-box-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5% 15%;
+    
+}
+
+.box-2-cont{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.b-2-bttn{
+    width: 30%;
+    margin-left: 34%;
+    font-size: 2.5vh;
+}
+
+/* FOOTER CODE */
+
+.footer-basic {
+    padding:40px 0;
+    background:  rgba(9, 31, 231, 0.575) ;
+
+    color:#fbfcfd;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+      color: black;
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+      color: black;
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:18px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  
